@@ -1,6 +1,33 @@
+/**
+ * @file main.c
+ * @version V1.0
+ * 
+ * Archivo que contiene la función principal del programa, que inicializa
+ * la matriz de distancias, muestra un menú de opciones y ejecuta
+ * las operaciones seleccionadas por el usuario.
+ *
+ * @author Jose Eduardo Rodriguez Fernandez
+ * @date 13 Abril 2024
+ */
+
+#include "funciones.h"
+
+/**
+ * @brief Función principal del programa.
+ *
+ * Esta función inicializa la matriz de distancias y muestra
+ * un menú de opciones al usuario y ejecuta las operaciones seleccionadas por el usuario.
+ * 
+ * @param distancias Matriz bidimensional que almacena las distancias entre los pueblos.
+ *
+ * @return 0 al finalizar el programa.
+ */
 #include <stdio.h>
 #include "funciones.h"
 
+/**
+ * @see todas las funcines utilizadas se encuentran en el archivo funciones.c
+*/
 int main() {
     int distancias[NUM_PUEBLO][NUM_PUEBLO] = {0};
     int opcion;
@@ -18,7 +45,6 @@ int main() {
                 encontrarPueblosMasLejos(distancias);
                 break;
             case 3:
-                // Aquí necesitas pedir al usuario el número del pueblo
                 int pueblo;
                 printf("Introduce el número de un pueblo: ");
                 scanf("%d", &pueblo);

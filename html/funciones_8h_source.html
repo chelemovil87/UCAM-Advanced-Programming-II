@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Pec: Archivo de código fuente funciones.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Pec
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">funciones.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="funciones_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#ifndef FUNCIONES_H</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#define FUNCIONES_H</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#include &lt;string.h&gt;</span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#include &lt;stdlib.h&gt;</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="funciones_8h.html#a52d7d3e508aa3da4435e21228c99f2ff">   27</a></span><span class="preprocessor">#define NUM_PUEBLO 10</span></div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="keywordtype">void</span> <a class="code hl_function" href="funciones_8h.html#af66f94c210f9406f9d3e3de6d770d025">imprimirMenu</a>();</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="keywordtype">void</span> <a class="code hl_function" href="funciones_8h.html#a7c8a64f0c5c5bef79e8fe25cf91b4334">llenarDistancias</a>(<span class="keywordtype">int</span> distancias[<a class="code hl_define" href="funciones_8h.html#a52d7d3e508aa3da4435e21228c99f2ff">NUM_PUEBLO</a>][<a class="code hl_define" href="funciones_8h.html#a52d7d3e508aa3da4435e21228c99f2ff">NUM_PUEBLO</a>]);</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="keywordtype">void</span> <a class="code hl_function" href="funciones_8h.html#a61a783d499dbdde568c79dfce0743040">imprimirTablaDistancias</a>(<span class="keywordtype">int</span> distancias[<a class="code hl_define" href="funciones_8h.html#a52d7d3e508aa3da4435e21228c99f2ff">NUM_PUEBLO</a>][<a class="code hl_define" href="funciones_8h.html#a52d7d3e508aa3da4435e21228c99f2ff">NUM_PUEBLO</a>]);</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="keywordtype">void</span> <a class="code hl_function" href="funciones_8h.html#a263b8edea0464f3eb64bba3dcd86a1f9">encontrarPueblosMasLejos</a>(<span class="keywordtype">int</span> distancias[<a class="code hl_define" href="funciones_8h.html#a52d7d3e508aa3da4435e21228c99f2ff">NUM_PUEBLO</a>][<a class="code hl_define" href="funciones_8h.html#a52d7d3e508aa3da4435e21228c99f2ff">NUM_PUEBLO</a>]);</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="keywordtype">void</span> <a class="code hl_function" href="funciones_8h.html#a6ec3556082b80eaf4caf7364bdf1354c">puebloMasLejano</a>(<span class="keywordtype">int</span> distancias[<a class="code hl_define" href="funciones_8h.html#a52d7d3e508aa3da4435e21228c99f2ff">NUM_PUEBLO</a>][<a class="code hl_define" href="funciones_8h.html#a52d7d3e508aa3da4435e21228c99f2ff">NUM_PUEBLO</a>], <span class="keywordtype">int</span> pueblo);</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="keywordtype">void</span> <a class="code hl_function" href="funciones_8h.html#a1bfbe1ab038449f1bc0d9665dae49c37">puebloMasCentrico</a>(<span class="keywordtype">int</span> distancias[<a class="code hl_define" href="funciones_8h.html#a52d7d3e508aa3da4435e21228c99f2ff">NUM_PUEBLO</a>][<a class="code hl_define" href="funciones_8h.html#a52d7d3e508aa3da4435e21228c99f2ff">NUM_PUEBLO</a>]);</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="keywordtype">void</span> <a class="code hl_function" href="funciones_8h.html#a28a17ec6f52da0327a243893dd10cf66">calcularKilometrosLechero</a>(<span class="keywordtype">int</span> (*distancias)[10]);</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="preprocessor">#endif </span></div>
+<div class="ttc" id="afunciones_8h_html_a1bfbe1ab038449f1bc0d9665dae49c37"><div class="ttname"><a href="funciones_8h.html#a1bfbe1ab038449f1bc0d9665dae49c37">puebloMasCentrico</a></div><div class="ttdeci">void puebloMasCentrico(int distancias[NUM_PUEBLO][NUM_PUEBLO])</div><div class="ttdoc">Muestra el pueblo más céntrico.</div><div class="ttdef"><b>Definition</b> funciones.c:177</div></div>
+<div class="ttc" id="afunciones_8h_html_a263b8edea0464f3eb64bba3dcd86a1f9"><div class="ttname"><a href="funciones_8h.html#a263b8edea0464f3eb64bba3dcd86a1f9">encontrarPueblosMasLejos</a></div><div class="ttdeci">void encontrarPueblosMasLejos(int distancias[NUM_PUEBLO][NUM_PUEBLO])</div><div class="ttdoc">Encuentra y muestra los dos pueblos más lejos entre sí.</div><div class="ttdef"><b>Definition</b> funciones.c:119</div></div>
+<div class="ttc" id="afunciones_8h_html_a28a17ec6f52da0327a243893dd10cf66"><div class="ttname"><a href="funciones_8h.html#a28a17ec6f52da0327a243893dd10cf66">calcularKilometrosLechero</a></div><div class="ttdeci">void calcularKilometrosLechero(int(*distancias)[10])</div><div class="ttdoc">Calcula la distancia total recorrida por el lechero.</div><div class="ttdef"><b>Definition</b> funciones.c:218</div></div>
+<div class="ttc" id="afunciones_8h_html_a52d7d3e508aa3da4435e21228c99f2ff"><div class="ttname"><a href="funciones_8h.html#a52d7d3e508aa3da4435e21228c99f2ff">NUM_PUEBLO</a></div><div class="ttdeci">#define NUM_PUEBLO</div><div class="ttdef"><b>Definition</b> funciones.h:27</div></div>
+<div class="ttc" id="afunciones_8h_html_a61a783d499dbdde568c79dfce0743040"><div class="ttname"><a href="funciones_8h.html#a61a783d499dbdde568c79dfce0743040">imprimirTablaDistancias</a></div><div class="ttdeci">void imprimirTablaDistancias(int distancias[NUM_PUEBLO][NUM_PUEBLO])</div><div class="ttdoc">Imprime la tabla de distancias entre los pueblos.</div><div class="ttdef"><b>Definition</b> funciones.c:73</div></div>
+<div class="ttc" id="afunciones_8h_html_a6ec3556082b80eaf4caf7364bdf1354c"><div class="ttname"><a href="funciones_8h.html#a6ec3556082b80eaf4caf7364bdf1354c">puebloMasLejano</a></div><div class="ttdeci">void puebloMasLejano(int distancias[NUM_PUEBLO][NUM_PUEBLO], int pueblo)</div><div class="ttdoc">Muestra el pueblo más lejano de un pueblo dado.</div><div class="ttdef"><b>Definition</b> funciones.c:150</div></div>
+<div class="ttc" id="afunciones_8h_html_a7c8a64f0c5c5bef79e8fe25cf91b4334"><div class="ttname"><a href="funciones_8h.html#a7c8a64f0c5c5bef79e8fe25cf91b4334">llenarDistancias</a></div><div class="ttdeci">void llenarDistancias(int distancias[NUM_PUEBLO][NUM_PUEBLO])</div><div class="ttdoc">Llena la matriz de distancias con los valores ingresados por el usuario.</div><div class="ttdef"><b>Definition</b> funciones.c:35</div></div>
+<div class="ttc" id="afunciones_8h_html_af66f94c210f9406f9d3e3de6d770d025"><div class="ttname"><a href="funciones_8h.html#af66f94c210f9406f9d3e3de6d770d025">imprimirMenu</a></div><div class="ttdeci">void imprimirMenu()</div><div class="ttdoc">Imprime el menú de opciones disponibles para el usuario.</div><div class="ttdef"><b>Definition</b> funciones.c:18</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0
+</small></address>
+</body>
+</html>
